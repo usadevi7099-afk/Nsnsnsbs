@@ -1,0 +1,50 @@
+{
+  "name": "Telegram Vote Bot",
+  "description": "A Telegram voting bot written in Go.",
+  "repository": "",
+  "logo": "",
+  "keywords": [
+    "go",
+    "telegram",
+    "bot",
+    "vote"
+  ],
+  "env": {
+    "APP_ID": {
+      "description": "Telegram API ID",
+      "required": true
+    },
+    "APP_HASH": {
+      "description": "Telegram API Hash",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token",
+      "required": true
+    },
+    "MONGO_URL": {
+      "description": "MongoDB connection URI",
+      "required": true
+    },
+    "SUPPORT_GROUP": {
+      "description": "Support group username or invite link",
+      "required": true
+    },
+    "SUPPORT_CHANNEL": {
+      "description": "Support channel username or invite link",
+      "required": true
+    },
+    "FSUB_CHAT": {
+      "description": "Comma-separated required channel IDs (e.g. -1001234567890,-1009876543210)",
+      "required": true
+    },
+    "START_IMAGE": {
+      "description": "Optional start message image URL",
+      "required": false
+    },
+    "VOTE_IMAGE": {
+      "description": "Optional vote message image URL",
+      "required": false
+    }
+  }
+}
